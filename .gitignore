@@ -1,0 +1,7 @@
+# Files and folders to ignore
+# dist/ not here on purpose
+
+node_modules/
+
+# per-machine configuration
+.DS_Store
