@@ -3,7 +3,7 @@ import 'core-js/shim';
 import 'angular';
 import 'angular-ui-router';
 
-import './base';
+//import './base';
 
 import appRouter from './app-router';
 import AppController from './app-controller';
@@ -23,8 +23,8 @@ import AppController from './app-controller';
  * @constant {string} API_URL Base url for accessing API.
  */
 angular.module('angular-amd', [
-  'ui.router',
-  'angular-amd.base'
+  'ui.router'//,
+  //'angular-amd.base'
 ])
   // Gets app specific router. Only app level routes are housed here,
   // modules' routes should be kept in module's route files.
